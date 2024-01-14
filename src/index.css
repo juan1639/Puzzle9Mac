@@ -1,0 +1,59 @@
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --casillaSizeXY: 10vw;
+  --casillaSizeXY-responsive: 25vw;
+  --blanco: #eee;
+  --resuelto-fondo: rgba(120, 100, 0, 0.5);
+  --casilla-resuelto: #3E1;
+  --resuelto-casillaFondo: rgba(45, 90, 255, 0.7);
+  --botonReset-rojo: rgb(255, 25, 10);
+  --botonReset-hover: rgba(235, 25, 0, 0.7);
+  --board-fondo: rgba(160, 140, 0, 0.8);
+  --amarillo-casillaValor: #fe1;
+  --fondo-casilla: #37f;
+  --letra-XL: 52px;
+  --letra-grande: 32px;
+  --letra-normal: 24px;
+  --letra-responsiveTablet: 48px;
+  --letra-responsiveXL: 32px;
+  --letra-responsiveGrande: 24px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1280px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-top: 1em;
+  background-color: rgba(120, 100, 0, 0.8);
+  background-image: url('./src/assets/fondo-mosaico4.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
