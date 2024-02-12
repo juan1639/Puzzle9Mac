@@ -3,6 +3,7 @@ import { Casilla } from './components/casilla.jsx'
 import { Resuelto } from './components/resuelto.jsx'
 import { arrayValores, arrayVecinos } from './logic/constants2.js'
 import './App.css'
+import confetti from 'canvas-confetti'
 
 console.log({arrayValores}, {arrayVecinos})
 
@@ -35,6 +36,7 @@ function App() {
         setBoard(newBoard)
 
         let checkResuelto = newBoard.every((item, index) => item === index + 1)
+        if (checkResuelto) confetti()
         console.log(checkResuelto)
         setResuelto(checkResuelto)
         return

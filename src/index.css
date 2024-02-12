@@ -46,7 +46,7 @@ html, body {
   place-items: center;
   padding-top: 1em;
   background-color: rgba(120, 100, 0, 0.8);
-  background-image: url('./src/assets/fondo-mosaico4.jpg');
+  background-image: url('./assets/fondo-mosaico4.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
