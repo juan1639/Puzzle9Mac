@@ -1,3 +1,10 @@
+# Puzzle
+
+Juego tipo Puzzle (lo ví hace muchísimo, en el SO del Macintosh de 1985 creo), y esta es una versión
+hecha en React.
+
+https://juan1639.github.io/Puzzle9Mac
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
