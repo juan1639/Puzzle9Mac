@@ -1,10 +1,5 @@
 
 #root {
-  width: 100vw;
-  height: 100vh;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   --casillaSizeXY: 10vw;
   --casillaSizeXY-responsive: 25vw;
@@ -34,13 +29,11 @@
 html, body {
   width: 100vw;
   height: 100vh;
-  max-width: 1280px;
 }
 
 .main {
   width: 100vw;
   height: 100vh;
-  max-width: 1280px;
   display: flex;
   flex-direction: column;
   place-items: center;

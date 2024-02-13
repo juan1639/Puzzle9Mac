@@ -18,6 +18,7 @@
 
 .casilla:hover {
   opacity: 0.7;
+  transform: translateY(-1px);
   /* background-color: rgba(40, 150, 255, 0.7); */
 }
 

@@ -3,7 +3,7 @@
   width: fit-content;
   height: fit-content;
   border: 2px solid #222;
-  border-radius: 1%;
+  border-radius: 6px;
   background-color: var(--board-fondo);
   /* opacity: 0.9; */
   display: grid;
@@ -32,6 +32,7 @@
 
 .resetGame:hover {
   background-color: var(--botonReset-hover);
+  transform: translateY(-3px);
 }
 
 .resetGame:active {
